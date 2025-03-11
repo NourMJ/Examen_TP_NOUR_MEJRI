@@ -7,3 +7,15 @@ for (i=1;i<n ; i++){
 return max ;
 
 }
+
+
+
+int FindMin(int T[] , int n) {
+int i ;
+for (i=0;i<n ; i++){
+        if (T[i]<min)
+        max=T[i];
+}
+return min ;
+
+}
