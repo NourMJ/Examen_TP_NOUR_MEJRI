@@ -19,3 +19,13 @@ for (i=0;i<n ; i++){
 return min ;
 
 }
+
+
+void compare (int T[], int n ){
+
+
+printf("Le max est %d \n" , FindMax(T,n));
+printf("Le min est %d \n" , FindMin(T,n));
+
+
+}
